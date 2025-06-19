@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RexBooks</title>
+    <link rel="icon" href="https://www.pngmart.com/files/21/Book-PNG-Isolated-HD.png">
+    <link rel="stylesheet" href="D:\C++\JFS\RexBooks\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navb">
+        <img src="https://www.pngmart.com/files/21/Book-PNG-Isolated-HD.png" style="height: 50px;width:50px;display: inline-block;position: absolute;bottom: 5px;">
+   <h1 id="tle" style="display: inline-block;margin-left: 60px;">RexBooks</h1>
+   </div>
+   <div class="container">
+    <div class="book">
+        <h2>PS-1</h2>
+        <h5>Kalki</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nisi corporis at, unde dolorum nesciunt tenetur deserunt nihil. Repellat, perspiciatis. Minus omnis mollitia unde voluptas, facere totam ratione numquam soluta odio veritatis deleniti perspiciatis asperiores non distinctio vitae et rerum eveniet aliquam. Libero repudiandae dignissimos quos ad. Deleniti, repudiandae error.</p>
+        <button onclick="dele(event)"><b>Delete</b></button>
+    </div>
+   </div>
+   <div class="overlay"></div>
+   <div class="pop">
+    <h2>Add Book</h2>
+    <form autocomplete="off">
+        <input type="text" placeholder="Book Title" id="boti">
+        <input type="text" placeholder="Book Author" id="boau">
+        <textarea placeholder="Description" id="des"></textarea>
+        <button id="adbut" onclick="add(event)">ADD</button>
+        <button id="cabut" onclick="cancel(event)">Cancel</button>
+
+    </form>
+   </div>
+   <button class="plus" onclick="plus()">+</button>
+</body>
+<script src="script.js"></script>
+</html>
